@@ -4,159 +4,44 @@
       "id": "1",
       "email": "user@example.com",
       "password": "password",
-      "balance": 115000
-    },
-    {
-      "id": "4dba",
-      "email": "example2@gmail.com",
-      "password": "password",
-      "balance": 0
-    },
-    {
-      "id": "578c",
-      "email": "example3@gmail.com",
-      "password": "passwword",
       "balance": 0
     }
   ],
-  "categories": [
+  "incomeSources": [
     {
-      "id": "1",
-      "userId": 1,
-      "name": "Продукты",
-      "type": "expense",
-      "color": "#FF5733",
-      "icon": "shopping-cart"
-    },
+      "id": "1f6c",
+      "name": "КС",
+      "expectedAmount": 2000000
+    }
+  ],
+  "accounts": [
     {
-      "id": "2",
-      "userId": 1,
-      "name": "Рестораны",
-      "type": "expense",
-      "color": "#8A2BE2",
-      "icon": "utensils"
-    },
+      "id": "3e3b",
+      "name": "КАСПИ",
+      "initialBalance": 1000
+    }
+  ],
+  "expenseCategories": [
     {
-      "id": "3",
-      "userId": 1,
-      "name": "Транспорт",
-      "type": "expense",
-      "color": "#3498DB",
-      "icon": "bus"
-    },
-    {
-      "id": "4",
-      "userId": 1,
-      "name": "Здоровье",
-      "type": "expense",
-      "color": "#2ECC71",
-      "icon": "heartbeat"
-    },
-    {
-      "id": "5",
-      "userId": 1,
-      "name": "Развлечения",
-      "type": "expense",
-      "color": "#F1C40F",
-      "icon": "film"
-    },
-    {
-      "id": "6",
-      "userId": 1,
-      "name": "Зарплата",
-      "type": "income",
-      "color": "#27AE60",
-      "icon": "wallet"
-    },
-    {
-      "id": "7",
-      "userId": 1,
-      "name": "Фриланс",
-      "type": "income",
-      "color": "#9B59B6",
-      "icon": "laptop"
-    },
-    {
-      "id": "8",
-      "userId": 1,
-      "name": "Подарки",
-      "type": "income",
-      "color": "#E74C3C",
-      "icon": "gift"
+      "id": "739e",
+      "name": "Жизнь",
+      "budgetAmount": 10000
     }
   ],
   "transactions": [
     {
-      "id": "1",
-      "userId": 1,
-      "categoryId": 1,
-      "amount": 2500,
-      "type": "expense",
-      "date": "2025-05-09T14:30:00.000Z",
-      "comment": "Еженедельная закупка"
+      "id": "b297",
+      "from": "income-КС",
+      "to": "account-КАСПИ",
+      "amount": 10000,
+      "date": "2025-05-12"
     },
     {
-      "id": "2",
-      "userId": 1,
-      "categoryId": 2,
-      "amount": 1800,
-      "type": "expense",
-      "date": "2025-05-08T19:45:00.000Z",
-      "comment": "Ужин с друзьями"
-    },
-    {
-      "id": "3",
-      "userId": 1,
-      "categoryId": 3,
-      "amount": 300,
-      "type": "expense",
-      "date": "2025-05-08T08:15:00.000Z",
-      "comment": "Такси до работы"
-    },
-    {
-      "id": "4",
-      "userId": 1,
-      "categoryId": 6,
-      "amount": 95000,
-      "type": "income",
-      "date": "2025-05-05T12:00:00.000Z",
-      "comment": "Зарплата за апрель"
-    },
-    {
-      "id": "5",
-      "userId": 1,
-      "categoryId": 7,
-      "amount": 15000,
-      "type": "income",
-      "date": "2025-05-07T16:30:00.000Z",
-      "comment": "Проект по вёрстке"
-    },
-    {
-      "id": "6",
-      "userId": 1,
-      "categoryId": 4,
-      "amount": 3500,
-      "type": "expense",
-      "date": "2025-05-06T11:20:00.000Z",
-      "comment": "Визит к врачу"
-    },
-    {
-      "id": "7",
-      "userId": 1,
-      "categoryId": 5,
-      "amount": 1200,
-      "type": "expense",
-      "date": "2025-05-08T20:30:00.000Z",
-      "comment": "Кино"
-    },
-    {
-      "id": "8",
-      "userId": 1,
-      "categoryId": 8,
-      "amount": 5000,
-      "type": "income",
-      "date": "2025-05-02T09:15:00.000Z",
-      "comment": "День рождения"
+      "id": "472f",
+      "from": "income-КС",
+      "to": "account-КАСПИ",
+      "amount": 2000,
+      "date": "2025-03-12"
     }
   ]
 }
